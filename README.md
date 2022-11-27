@@ -28,13 +28,13 @@ momentum on the phonon dispersion.
 
 ## ZnO
 
-The phonon related data for ZnO was retrieved from [phonopy
+The phonon related data for ZnO were retrieved from [phonopy
 examples](https://github.com/phonopy/phonopy/tree/develop/example/ZnO).
 
 1. First, generate the phonon band data using `phonopy`
 
   ```bash
-  cd ZnO
+  cd examples/ZnO
   phonopy --nac band.conf
   ```
 
@@ -43,9 +43,12 @@ examples](https://github.com/phonopy/phonopy/tree/develop/example/ZnO).
   ```bash
   # horizontal 1x3 layout
   pham_band.py --layout h -i band.yaml -t 0
+  # or vertical 3x1 layout
+  pham_band.py --layout v -i band.yaml -t 0
   ```
 
-The resulting image follows:
+The resulting images follow:
 
-![ZnO PAM](./ZnO/zno_pam_h.png)
+![ZnO PAM](./examples/ZnO/zno_pam_h.png)
+![ZnO PAM](./examples/ZnO/zno_pam_v.png)
 
