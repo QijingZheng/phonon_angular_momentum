@@ -17,7 +17,7 @@ concept of phonon angular momentum in their PRL paper.
 
 For detail formulation of the PAM, please refer to this post.
 
-> [Phonon Angular Momentum](http://staff.ustc.edu.cn/~zqj/posts/Phonon-Angular-Momentum/)
+> [Angular Momentum in Solids](https://qijingzheng.github.io/posts/Angular-Momentum-in-Solids/)
 
 The script `pham_band.py` reads the phonon frequencies and phonon polarization
 vectors from phonopy output `band.yaml`, then calculate the PAM according to
